@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      /* overflow-y: hidden; */
+      /* overflow-x: hidden; */
+    }
+    body{
+      /* background-color:hsl(219, 16%, 56%) ; */
+      /* overflow-y: hidden;
+      overflow-x: hidden; */
+    }
+
+    .container {
+      width: 100vw;
+      height: 100vh;
+      background-color: hsl(219, 16%, 56%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* overflow-y: hidden;
+      overflow-x: hidden; */
+      /* padding-top: 300px; */
+    }
+
+    .box {
+      width: 250px;
+      height: 420px;
+      background-color: whitesmoke;
+      border-radius: 15px;
+      box-shadow: 0px  0px 11px rgb(58, 84, 105);
+    }
+
+    img {
+      margin: 10px;
+      border-radius: 15px;
+      width: 230px;
+      height: 230px;
+    }
+
+    .para {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 230px;
+      margin-left: 10px;
+      gap: 10px;
+    }
+
+    .first {
+      font-family: "Outfit", sans-serif;
+      font-size: 1.0988em;
+      font-weight: 700;
+      width: 200px;
+      height: 60px;
+      text-align: center;
+
+    }
+
+    .second {
+      font-size: 0.9em;
+      font-family: "Outfit", sans-serif;
+      width: 248px;
+      text-align: center;
+      font-weight: 400;
+      height: 60px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="box">
+      <div class="image">
+        <img src="images/image-qr-code.png" alt="">
+      </div>
+      <div class="para">
+        <p class="first">Improve your front-end skills by building projects</p>
+        <p class="second">Scan the QR code to visit Frontend mentor and take your skills the next level</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
